@@ -20,12 +20,15 @@
     border-bottom: 4px double black;
 }
 
-.button{
+button{
     border:none;
     background: none;
     margin: 5px;
 }
-.button:hover{
+button:hover{
+    background-color: pink;   
+}
+.on{
     background-color: pink;
     transition: 0.4s;
 }
