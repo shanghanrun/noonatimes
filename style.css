@@ -44,7 +44,7 @@ button:hover{
     /* 아이콘의 너비만큼 입력 필드를 내부적으로 이동 */
 }
 #search-button{
-    background-color: rgb(87, 234, 87);
+    background-color: rgb(126, 154, 253);
 }
 i{
     vertical-align: middle;
@@ -59,4 +59,8 @@ img{
 .item{
     padding: 10px;
     border-bottom: 3px solid gray;
+}
+
+.active{
+    background-color: blue;
 }

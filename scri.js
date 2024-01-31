@@ -2,7 +2,7 @@ const apiKey ='4c2d201c758b4664ab2eeaa863a7bbee'
 let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 let newsList=[]
 const replaceImage ="noonatimes2.png";
-let totalResults = 34;
+let totalResults = 0;
 let page =1
 const pageSize =10 // 한페이지에 보여질 item갯수
 const groupSize =5
@@ -105,17 +105,17 @@ function errorRender(errorMessage){
 function pagiNationRender(){
     const totalPage = Math.ceil(totalResults / pageSize)
     const pageGroup = Math.ceil(page /groupSize)
-    let lastPage = pageGroup * groupSize
-    
+    const lastPage = pageGroup * groupSize  //groupSize * 그룹단위
     const firstPage = lastPage - groupSize +1
+
     if (lastPage > totalPage){
         lastPage = totalPage
     }
-    
+     
 
     let paginationHTML ='';
     for (let i=firstPage; i<=lastPage; i++){
-        paginationHTML += `<li class="page-item" id="id${String(i)}" onclick="moveToPage(${i})"><a class="page-link">${i}</a></li>`
+        paginationHTML += `<li class="page-item" onclick="moveToPage(${i})"><a class="page-link">${i}</a></li>`
     }
 
     document.querySelector('.pagination').innerHTML = paginationHTML;
@@ -131,9 +131,6 @@ function pagiNationRender(){
 function moveToPage(pageNo){
     page = pageNo;   // 직접 url에 넣어 줄 수도 있지만, 형식상 page에 넣어준다.
     url = url+`&pageSize=${pageSize}&page=${page}`
-    
-    const currentLiTag = document.querySelector(`#id${String(pageNo)}`)
-    currentLiTag.classList.add('active')
     getNews()
 
 }
