@@ -31,19 +31,32 @@ function checkInput(word){
 
 const getNews = async()=>{
     const url2 = new URL(url);
-    // const response = await fetch(url2);   너무 많이 이용해서 블록당해서 하루 정도 쉰다.
-    const data = await response.json()
-    newsList = data.articles;
-    const firstItem = {
-        title: '여신의 품격: Ive 장원영',
-        content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
-        urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
-        publishedAt: '2024.01.30',
-        source: {name: 'Noona Times'}
+    try{
+        // const response = await fetch(url2);   너무 많이 이용해서 블록당해서 하루 정도 쉰다.
+        const data = await response.json()
+         if (response.status == 200){
+            if(data.articles.length == 0){
+                throw new Error('No result for this search');
+            }
+             newsList = data.articles;
+             const firstItem = {
+                 title: '여신의 품격: Ive 장원영',
+                 content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
+                 urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
+                 publishedAt: '2024.01.30',
+                 source: {name: 'Noona Times'}
+             }
+             newsList = [firstItem, ...newsList]
+             render();   
+             console.log(newsList)
+         } else{
+            throw new Error(data.message)
+         }
+
+    } catch(e){
+        console.log(e.message)
+        errorRender(error.message)
     }
-    newsList = [firstItem, ...newsList]
-    render();   
-    console.log(newsList)
     
 }
 
@@ -70,6 +83,16 @@ const render=()=>{
     newsBoard.innerHTML = newsHTML;    
 }
 
+function errorRender(errorMessage){
+    const newsBoard = document.querySelector('#news-board')
+    newsBoard.innerHTML ='';
+    const errorHTML = `
+        <div class="alert alert-danger" role="alert">
+            ${errorMessage}
+        </div>
+    `;
+    newsBoard.innerHTML= errorHTML;
+}
 
 getNews();
 
