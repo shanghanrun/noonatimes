@@ -32,6 +32,25 @@ button:hover{
     background-color: pink;
     transition: 0.4s;
 }
+.search-container{
+    position: relative;
+    display: inline-block;
+
+    padding-top: 10px;
+}
+/* 입력 필드의 스타일 */
+.search-input {
+    padding-left: 25px;
+    /* 아이콘의 너비만큼 입력 필드를 내부적으로 이동 */
+}
+#search-button{
+    background-color: rgb(87, 234, 87);
+}
+i{
+    vertical-align: middle;
+    padding-bottom: 4px;
+    color: gray;
+}
 
 img{
     max-width: 100%;
