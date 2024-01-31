@@ -34,9 +34,9 @@ function checkInput(word){
 }
 
 const getNews = async()=>{
-    // const url2 = new URL(url);
-    // url2.searchParams.set("page",page)  // &page=page
-    // url2.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
+    const url2 = new URL(url);
+    url2.searchParams.set("page",page)  // &page=page
+    url2.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
     try{
         // const response = await fetch(url2);   너무 많이 이용해서 블록당해서 하루 정도 쉰다.
         // const data = await response.json()
@@ -113,27 +113,22 @@ function pagiNationRender(){
     }
     
 
-    let paginationHTML ='';
+    let paginationHTML =`<li class="page-item"><a class="page-link" onclick="moveToPage(${page-1})" href="#" >Previous</a></li>`;
+    // page가 전역변수라서 page-1 이 최신페이지에서 이전페이지가 된다.
     for (let i=firstPage; i<=lastPage; i++){
-        paginationHTML += `<li class="page-item" id="id${String(i)}" onclick="moveToPage(${i})"><a class="page-link">${i}</a></li>`
+        paginationHTML += `<li class="page-item" onclick="moveToPage(${i})" href="#" ><a class="page-link ${i==page ? 'active' : ''}">${i}</a></li>`
     }
+
+    paginationHTML += `<li class="page-item"><a class="page-link" onclick="moveToPage(${page+1})" href="#" >Next</a></li>`
 
     document.querySelector('.pagination').innerHTML = paginationHTML;
 
-   
-    // <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    // <li class="page-item"><a class="page-link" href="#">1</a></li>
-    // <li class="page-item"><a class="page-link" href="#">2</a></li>
-    // <li class="page-item"><a class="page-link" href="#">3</a></li>
-    // <li class="page-item"><a class="page-link" href="#">Next</a></li>
 }
 
 function moveToPage(pageNo){
-    page = pageNo;   // 직접 url에 넣어 줄 수도 있지만, 형식상 page에 넣어준다.
-    url = url+`&pageSize=${pageSize}&page=${page}`
-    
-    const currentLiTag = document.querySelector(`#id${String(pageNo)}`)
-    currentLiTag.classList.add('active')
+    page = pageNo; 
+    // url = url+`&pageSize=${pageSize}&page=${page}`
+    // 위에서 URL.searchParams.set()을 사용하므로 여기서는 주석
     getNews()
 
 }
