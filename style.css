@@ -80,3 +80,17 @@ img {
     /* 기본 밑줄 제거 */
     border-bottom: 1px solid rgba(0, 0, 255, 0.2);
 }
+
+.country {
+    background-color: rgb(77, 252, 152);
+    font-size: 20px;
+    padding: 3px;
+}
+
+.country:hover {
+    cursor: pointer;
+}
+
+span {
+    margin-left: 20px;
+}

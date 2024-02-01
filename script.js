@@ -1,6 +1,7 @@
 const apiKey ='4c2d201c758b4664ab2eeaa863a7bbee'
+let country = 'kr'
 // let url = `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${apiKey}`;
-let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=kr&apiKey=${apiKey}`;
+let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${country}r&apiKey=${apiKey}`;
 let newsList=[]
 const replaceImage ="noonatimes2.png";
 let totalResults = 34;
@@ -11,6 +12,9 @@ let lastPage;
 let firstPage;
 let prevStatus = "disabled";
 let nextStatus = '';
+
+let firstItem;
+
 
 const menus = document.querySelectorAll('.menus button')
 menus.forEach(button => addEventListener('click', onMenuClick))
@@ -26,6 +30,18 @@ input.addEventListener('keyup', function(e){  //input enter에 search 기능 추
     }
 })
 
+function changeCountry(){
+    const countryTag = document.querySelector('.country')
+    if (countryTag.innerText == '한국기사 → 영어기사'){
+        countryTag.innerText = '영어기사 → 한국기사';
+        country ='us'
+    } else{
+        countryTag.innerText = '영어기사 → 한국기사';
+        country ='kr'
+    }
+}
+
+
 document.getElementById('news-board').addEventListener('click', function(event) {
     event.stopPropagation(); // 이벤트 전파 중지
 });
@@ -33,7 +49,7 @@ document.getElementById('news-board').addEventListener('click', function(event) 
 function onMenuClick(e){
     const category = e.target.id
     //혹은 e.target.textContent.toLowerCase();
-    url =`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${apiKey}`
+    url =`https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}`
     getNews();
 }
 function search(){
@@ -66,13 +82,25 @@ const getNews = async()=>{
             }
              newsList = data.articles;
              totalResults = data.totalResults;
-             const firstItem = {
-                 title: '여신의 품격: Ive 장원영 vs 코딩누나',
-                 content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
-                 url: 'https://cdn.inflearn.com/public/users/thumbnails/694277/60d324e4-719f-4551-8f3c-f377b7eb1f78',
-                 urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
-                 publishedAt: '2024.01.30',
-                 source: {name: 'Noona Times'}
+
+             if (country == 'kr'){
+                 firstItem = {
+                     title: '여신의 품격: Ive 장원영 vs 코딩누나',
+                     content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
+                     url: 'https://cdn.inflearn.com/public/users/thumbnails/694277/60d324e4-719f-4551-8f3c-f377b7eb1f78',
+                     urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
+                     publishedAt: '2024.01.30',
+                     source: {name: 'Noona Times'}
+                 }
+             } else{
+                firstItem = {
+                     title: 'Grace of goddess: Ive Jang wongyong vs Coding noona.',
+                     content: "<h5>A perfect pair in beauty along with Coding noona</br>Coding noona! You should not let your guard down!!</h5>",
+                     url: 'https://cdn.inflearn.com/public/users/thumbnails/694277/60d324e4-719f-4551-8f3c-f377b7eb1f78',
+                     urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
+                     publishedAt: '2024.01.30',
+                     source: {name: 'Noona Times'}
+                 }
              }
              newsList = [firstItem, ...newsList]
              render();
