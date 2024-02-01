@@ -162,21 +162,20 @@ function pagiNationRender(){
     }
     
     
-    let paginationHTML =`<li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(event,${firstPage}" href="#" ><<</a></li><li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(event,${page-1})" href="#" >Previous</a></li>`;
+    let paginationHTML =`<li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${firstPage}" href="#" ><<</a></li><li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${page-1})" href="#" >Previous</a></li>`;
     // page가 전역변수라서 page-1 이 최신페이지에서 이전페이지가 된다.
     
     for (let i=firstPage; i<=lastPage; i++){
-        paginationHTML += `<li class="page-item" onclick="moveToPage(event,${i})" ><a class="page-link ${i==page ? 'active' : ''}" href="#">${i}</a></li>`
+        paginationHTML += `<li class="page-item" onclick="moveToPage(${i})" ><a class="page-link ${i==page ? 'active' : ''}" href="#">${i}</a></li>`
     }
 
-    paginationHTML += `<li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(event,${page+1})" href="#" >Next</a></li><li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(event,${lastPage})" href="#" >>></a></li>`
+    paginationHTML += `<li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(${page+1})" href="#" >Next</a></li><li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(${lastPage})" href="#" >>></a></li>`
 
     document.querySelector('.pagination').innerHTML = paginationHTML;
 
 }
 
-function moveToPage(event, pageNo){
-    event.stopPropagation();
+function moveToPage(pageNo){    
     const prevs = document.querySelectorAll('.prev')
     const nexts = document.querySelectorAll('.next')
 
