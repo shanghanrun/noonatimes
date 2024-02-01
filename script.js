@@ -1,7 +1,7 @@
 const apiKey ='4c2d201c758b4664ab2eeaa863a7bbee'
 let country = 'kr'
-// let url = `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${apiKey}`;
-let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${country}r&apiKey=${apiKey}`;
+let url = `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${apiKey}`;
+// let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${country}r&apiKey=${apiKey}`;
 let newsList=[]
 const replaceImage ="noonatimes2.png";
 let totalResults = 34;
