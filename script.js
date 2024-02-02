@@ -53,19 +53,19 @@ document.getElementById('news-board').addEventListener('click', function(event) 
     event.stopPropagation(); // 이벤트 전파 중지
 });
 
-function onMenuClick(e){
+async function onMenuClick(e){
     const category = e.target.id
     //혹은 e.target.textContent.toLowerCase();
     url =`https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}`
-    getNews();
+    await getNews();
 }
-function search(){
+async function search(){
     // const input = document.querySelector('.search-input') //전역변수
     const keyword = input.value;
     input.value =''
     const country = checkInput(keyword);
     url = `https://newsapi.org/v2/top-headlines?country=${country}&q=${keyword}&apiKey=${apiKey}`    
-    getNews()
+    await getNews()
 }
 
 function checkInput(word){
@@ -121,7 +121,7 @@ const getNews = async()=>{
              }
              newsList = [firstItem, ...newsList]
              render();
-             pagiNationRender()   
+            //  pagiNationRender()   이것을 render()안으로 넣자.
              console.log(newsList)
          } else{
             throw new Error(data.message)
@@ -154,7 +154,8 @@ const render=()=>{
             </div>
         </div>
     `).join('')
-    newsBoard.innerHTML = newsHTML; 
+    newsBoard.innerHTML = newsHTML;
+    pagiNationRender(); 
 }
 
 function errorRender(message){
@@ -184,20 +185,20 @@ function pagiNationRender(){
         nextStatus = 'disabled'
     }
     
-    let paginationHTML =`<li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${firstPage})" href="#" ><<</a></li><li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${page-1})" href="#" >Previous</a></li>`;
+    let paginationHTML =`<li class="page-item prev ${prevStatus}"><div class="page-link" onclick="moveToPage(${firstPage})"><<</div></li><li class="page-item prev ${prevStatus}"><div class="page-link" onclick="moveToPage(${page-1})">Previous</div></li>`;
     // page가 전역변수라서 page-1 이 최신페이지에서 이전페이지가 된다.
     
     for (let i=firstPage; i<=lastPage; i++){
-        paginationHTML += `<li class="page-item" onclick="moveToPage(${i})" ><a class="page-link ${i==page ? 'active' : ''}" href="#">${i}</a></li>`
+        paginationHTML += `<li class="page-item" onclick="moveToPage(${i})" ><div class="page-link ${i==page ? 'active' : ''}" href="#">${i}</div></li>`
     }
 
-    paginationHTML += `<li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(${page+1})" href="#" >Next</a></li><li class="page-item next ${nextStatus}"><a class="page-link" onclick="moveToPage(${lastPage})" href="#" >>></a></li>`
+    paginationHTML += `<li class="page-item next ${nextStatus}"><div class="page-link" onclick="moveToPage(${page+1})">Next</div></li><li class="page-item next ${nextStatus}"><div class="page-link" onclick="moveToPage(${lastPage})">>></div></li>`
 
     document.querySelector('.pagination').innerHTML = paginationHTML;
 
 }
 
-function moveToPage(pageNo){    
+async function moveToPage(pageNo){    
     const prevs = document.querySelectorAll('.prev')
     const nexts = document.querySelectorAll('.next')
 
@@ -220,7 +221,7 @@ function moveToPage(pageNo){
     }
     // url = url+`&pageSize=${pageSize}&page=${page}`
     // 위에서 URL.searchParams.set()을 사용하므로 여기서는 주석
-    getNews()  // getNews에 paginationRender()가 포함되어 있다.
+    await getNews()  // getNews에 paginationRender()가 포함되어 있다.
 
 }
 
