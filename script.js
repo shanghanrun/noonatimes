@@ -19,24 +19,31 @@ let firstItem;
 const menus = document.querySelectorAll('.menus button')
 menus.forEach(button => addEventListener('click', onMenuClick))
 console.log(menus)
+
 const input = document.querySelector('.search-input')
-input.addEventListener('keyup', function(e){  //input enter에 search 기능 추가
-    if (e.key == 'Enter'){
-        const keyword = input.value;
-    input.value =''
-    const country = checkInput(keyword);
-    url = `https://newsapi.org/v2/top-headlines?country=${country}&q=${keyword}&apiKey=${apiKey}`    
-    getNews();
-    }
-})
+// 이벤트 전파로 인해서 input을 enter로 하면... 막아지지 않고 오류난다.
+// input.addEventListener('keyup', function(event){  //input enter에 search 기능 추가
+    
+//     if (event.key == 'Enter'){
+//         const keyword = input.value;
+//     input.value =''
+//     event.stopPropagation()
+//     const country = checkInput(keyword);
+//     url = `https://newsapi.org/v2/top-headlines?country=${country}&q=${keyword}&apiKey=${apiKey}`    
+//     getNews();
+//     }
+// })
 
 function changeCountry(){
     const countryTag = document.querySelector('.country')
     if (countryTag.innerText == '한국기사 → 영어기사'){
         countryTag.innerText = '영어기사 → 한국기사';
         country ='us'
-    } else{
-        countryTag.innerText = '영어기사 → 한국기사';
+        
+    } else if(countryTag.innerText == '영어기사 → 한국기사'){
+        //! 그냥 else라고 하면 불분명하다. 그밖의 다른 것은,
+        // 아닌것 모두
+        countryTag.innerText = '한국기사 → 영어기사';
         country ='kr'
     }
 }
@@ -65,8 +72,16 @@ function checkInput(word){
      // 정규 표현식을 사용하여 한글/영문 여부를 판별
     var isKorean = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(word);
     var isEnglish = /^[a-zA-Z]+$/.test(word);
-    if(isKorean) return 'kr';
-    if(isEnglish) return 'us';
+    if(isKorean) {
+        country = 'kr';
+        console.log(country);
+        return 'kr';
+    }
+    if(isEnglish) {
+        country = 'us';
+        console.log(country)
+        return 'us';
+    }
 }
 
 const getNews = async()=>{
@@ -77,7 +92,9 @@ const getNews = async()=>{
         const response = await fetch(url2);   //너무 많이 이용해서 블록당해서 하루 정도 쉰다.
         const data = await response.json()
          if (response.status == 200){
+            console.log('data : ', data);
             if(data.articles.length == 0){
+                console.log('아티클길이', data.articles.length)
                 throw new Error('No result for this search');
             }
              newsList = data.articles;
@@ -112,7 +129,7 @@ const getNews = async()=>{
 
     } catch(e){
         console.log(e.message)
-        errorRender(error.message)
+        errorRender(e.message)
     }
     
 }
@@ -140,15 +157,18 @@ const render=()=>{
     newsBoard.innerHTML = newsHTML; 
 }
 
-function errorRender(errorMessage){
+function errorRender(message){
     const newsBoard = document.querySelector('#news-board')
     newsBoard.innerHTML ='';
     const errorHTML = `
         <div class="alert alert-danger" role="alert">
-            ${errorMessage}
+            ${message}
         </div>
     `;
     newsBoard.innerHTML= errorHTML;
+
+    // pagiNation도 안보이게 한다.(삭제하지 않으면 기존모양 그대로 나온다.)
+    document.querySelector('.pagination').innerHTML = ""
 }
 
 function pagiNationRender(){
@@ -160,9 +180,11 @@ function pagiNationRender(){
     if (lastPage > totalPage){
         lastPage = totalPage
     }
+    if (firstPage == lastPage){
+        nextStatus = 'disabled'
+    }
     
-    
-    let paginationHTML =`<li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${firstPage}" href="#" ><<</a></li><li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${page-1})" href="#" >Previous</a></li>`;
+    let paginationHTML =`<li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${firstPage})" href="#" ><<</a></li><li class="page-item prev ${prevStatus}"><a class="page-link" onclick="moveToPage(${page-1})" href="#" >Previous</a></li>`;
     // page가 전역변수라서 page-1 이 최신페이지에서 이전페이지가 된다.
     
     for (let i=firstPage; i<=lastPage; i++){
