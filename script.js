@@ -145,7 +145,7 @@ const render=()=>{
                         <img src=${news.urlToImage?? replaceImage}  />
                     </div>
                     <div class="col-lg-8">
-                        <h2><a href="${news.url}">${news.title}</a></h2>
+                        <h2><div onclick="getDetail(${news.url})">${news.title}</div></h2>
                         <p>${news.content}</p>
                         <div>
                             ${news.source.name} : ${news.publishedAt} 
@@ -156,6 +156,10 @@ const render=()=>{
     `).join('')
     newsBoard.innerHTML = newsHTML;
     pagiNationRender(); 
+}
+
+function getDetail(url){
+     window.location.href = url;
 }
 
 function errorRender(message){
