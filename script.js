@@ -229,7 +229,68 @@ async function moveToPage(pageNo){
 
 }
 
-getNews();
+// 비디오 플레이어 요소 가져오기
+const videoPlayer = document.getElementById('videoPlayer');
+const videoTitle = document.querySelector('#videoTitle');
+const videoDescription = document.querySelector('#videoDescription')
+
+// 비디오 플레이어에 클릭 이벤트 리스너 추가
+videoPlayer.addEventListener('click', function() {
+    if (videoPlayer.paused) {
+        videoPlayer.play();
+    } else {
+        videoPlayer.pause();
+    }
+});
+
+// movies.json 파일 경로
+const jsonFilePath = 'movies.json';
+
+// movies.json 파일을 비동기적으로 가져와서 비디오 재생
+fetch(jsonFilePath)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(videos => {
+        // 첫 번째 비디오 정보 가져오기
+        const firstVideo = videos[0];
+        // 비디오 소스 설정
+        videoPlayer.src = firstVideo.videoUrl;
+        videoTitle.innerText = firstVideo.title;
+        videoDescription.innerText = firstVideo.description;
+        // 비디오 재생
+        // videoPlayer.play(); 브라우저 정책으로 자동재생 안되게 막음
+    })
+    .catch(error => {
+        console.error('There was a problem with your fetch operation:', error);
+    });
+
+
+// 영화포스터
+const image1 ='https://search3.kakaocdn.net/argon/656x0_80_wr/Fdw60fejriu'
+const image2 = 'https://search1.kakaocdn.net/argon/656x0_80_wr/1AmP7klqBiW'
+const image3 ='https://search1.kakaocdn.net/argon/656x0_80_wr/5rZKc67EPJ4'
+const image4 ='https://search2.kakaocdn.net/argon/656x0_80_wr/5boqAGhvpqs'
+const image5 ='https://search2.kakaocdn.net/argon/550x0_65_wr/Gl1Yurbx5Df0'
+
+const imageContainer = document.getElementById('images');
+// 이미지 URL 배열
+const imageUrls = [image1, image2, image3, image4, image5];
+
+// 이미지를 컨테이너에 추가
+imageUrls.forEach(url => {
+    const imgElement = document.createElement('img'); // 이미지 요소 생성
+    imgElement.src = url; // 이미지 요소의 src 속성 설정
+    imageContainer.appendChild(imgElement); // 이미지 요소를 컨테이너에 추가
+});
+
+
+
+
+// getNews();
 
 
 

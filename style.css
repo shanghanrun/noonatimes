@@ -74,10 +74,10 @@ img {
     opacity: 0.2;
 }
 
-.item a {
+.item h2 {
     color: rgb(49, 95, 244);
-    text-decoration: none;
-    /* 기본 밑줄 제거 */
+    /* text-decoration: none; */
+    /* a 태그일 경우 기본 밑줄 제거 */
     border-bottom: 1px solid rgba(0, 0, 255, 0.2);
 }
 
@@ -93,4 +93,53 @@ img {
 
 span {
     margin-left: 20px;
+}
+
+
+
+#videoPlayer {
+    /* max-width: 600px; */
+    width: 800px;
+    margin: 0 auto;
+    /* 이렇게 하면 중앙정렬이 된다. 다만 */
+    display: block;
+    /* 상위태그 영향으로 중앙정렬이 안되면 display: block;을 해주면 된다. */
+    border-radius: 10px;
+}
+
+#videoTitle,
+#videoDescription {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    /* 이미지가 한 줄에 맞지 않을 경우 자동으로 다음 줄로 넘어갑니다. */
+    justify-content: center;
+    /* 이미지를 수평 가운데로 정렬합니다. */
+    gap: 20px;
+    /* 이미지 사이의 간격을 조정합니다. */
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#images img {
+    max-width: 100%;
+    /* 이미지가 부모 요소에 맞게 최대 너비로 표시됩니다. */
+    /* height: auto; */
+    /* 이미지의 높이를 자동으로 조정하여 비율을 유지합니다. */
+
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#images img:hover {
+    transform: scale(1.2) translateY(-8px);
 }
