@@ -63,7 +63,7 @@ async function search(){
     // const input = document.querySelector('.search-input') //전역변수
     const keyword = input.value;
     input.value =''
-    const country = checkInput(keyword);
+    country = checkInput(keyword);
     url = `https://newsapi.org/v2/top-headlines?country=${country}&q=${keyword}&apiKey=${apiKey}`    
     await getNews()
 }
