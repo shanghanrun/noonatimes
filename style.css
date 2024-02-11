@@ -74,10 +74,10 @@ img {
     opacity: 0.2;
 }
 
-.item a {
+.item h2 {
     color: rgb(49, 95, 244);
-    text-decoration: none;
-    /* 기본 밑줄 제거 */
+    /* text-decoration: none; */
+    /* a 태그일 경우 기본 밑줄 제거 */
     border-bottom: 1px solid rgba(0, 0, 255, 0.2);
 }
 
@@ -94,6 +94,7 @@ img {
 span {
     margin-left: 20px;
 }
+
 
 .title {
     color: rgb(18, 72, 251);
