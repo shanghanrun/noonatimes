@@ -94,3 +94,12 @@ img {
 span {
     margin-left: 20px;
 }
+
+.title {
+    color: rgb(18, 72, 251);
+    text-decoration: underline;
+}
+
+.title:hover {
+    cursor: pointer;
+}
