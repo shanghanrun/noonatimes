@@ -134,12 +134,14 @@ function checkInput(word){
     
 // }
 
-
+let renderingList;
 function render(){
+    let index = page -1;
+    renderingList = paginationList[index];
     const newsBoard = document.querySelector('#news-board')
     newsBoard.innerHTML =''; //비우고 시작
 
-    const newsHTML = newsList.map(news => 
+    const newsHTML = renderingList.map(news => 
         `<div class="row item">
             <div class="col-lg-4">
                         <img src=${news.urlToImage?? replaceImage}  />
@@ -225,18 +227,16 @@ async function moveToPage(pageNo){
     }
     // url = url+`&pageSize=${pageSize}&page=${page}`
     // 위에서 URL.searchParams.set()을 사용하므로 여기서는 주석
-    await getNews()  // getNews에 paginationRender()가 포함되어 있다.
+    await getNews2()  // getNews에 paginationRender()가 포함되어 있다.
 
 }
 
 
 // getNews();
 
-
+let paginationList=[]
+// let pageSize =10;
 async function getNews2(){
-    const newsUrl = new URL(url2);
-    newsUrl.searchParams.set("page",page)  // &page=page
-    newsUrl.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
     try{
         const response = await fetch(url2);   //너무 많이 이용해서 블록당해서 하루 정도 쉰다.
         const data = await response.json()
@@ -246,26 +246,48 @@ async function getNews2(){
         //    {status: 'ok', totalResults: 37, articles: Array(3)}
         //]
          if (response.status == 200){
-            console.log('data : ', data);
             if(data[0].articles.length == 0){                
                 throw new Error('No result for this search');
             }
              newsList = data[0].articles;
+             console.log('newsList :', newsList)
              const newsListLength = newsList.length;
 
-             for(i=1; i<newsListLength+1; i++){
-                let list =[]
-                if(i %10 != 0 ){
-                    list.push(newsList[i-1])
-                } 
-                newsList.push(list);
-                list =[]
-                if (i%)
+            let list =[]
+            for(let i=0; i<newsListLength; i++){
+                if(i ==0){
+                    console.log('i :', i)
+                    console.log(`newsList[${i}]: `, newsList[i])
+                    list = [...list, newsList[i]]
+                    
+                    console.log('list :', list)
+                    // continue; // 다시 for문으로 자바스크립트에 없는 듯
+                    
+                }
+                
+                if(i % pageSize != 0 ){
+                    console.log('i :', i)
+                    console.log(`newsList[${i}]: `, newsList[i])
+                    list = [...list, newsList[i]]
+                    
+                    console.log('list :', list)
+                } else{
+                    if (i !=0){
+                        paginationList.push(list);
+                        console.log('paginationList :', paginationList)
+                        list =[]
+                        list.push(newsList[i])
+                    }
+                }
+
+                // 마지막 페이지에 대한 처리
+                if (i === newsListLength - 1) {
+                    paginationList.push(list);
+                }
              }
+             console.log('paginationList: ', paginationList)
              totalResults = data[0].totalResults;
              render();
-            //  pagiNationRender()   이것을 render()안으로 넣자.
-             console.log(newsList)
          } else{
             throw new Error('예상 못한 에러를 만났습니다.')
          }
@@ -273,6 +295,7 @@ async function getNews2(){
     } catch(e){
         console.log(e.message)
         errorRender(e.message)
+        
     }
     
 }
