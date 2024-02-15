@@ -14,7 +14,8 @@ let prevStatus = "disabled";
 let nextStatus = '';
 
 let firstItem;
-
+let paginationList=[]
+let renderingList;
 
 const menus = document.querySelectorAll('.menus button')
 menus.forEach(button => addEventListener('click', onMenuClick))
@@ -134,7 +135,7 @@ function checkInput(word){
     
 // }
 
-let renderingList;
+
 function render(){
     let index = page -1;
     renderingList = paginationList[index];
@@ -234,82 +235,9 @@ async function moveToPage(pageNo){
 
 // getNews();
 
-let paginationList=[]
-// let pageSize =10;
-async function getNews2(){
-    try{
-        const response = await fetch(url2);   //너무 많이 이용해서 블록당해서 하루 정도 쉰다.
-        const data = await response.json()
-        console.log('data: ', data)  
-        // [
-        //    {status: 'ok', totalResults: 37, articles: Array(37)},
-        //    {status: 'ok', totalResults: 37, articles: Array(3)}
-        //]
-         if (response.status == 200){
-            if(data[0].articles.length == 0){                
-                throw new Error('No result for this search');
-            }
-             newsList = data[0].articles;
-             console.log('newsList :', newsList)
-             const newsListLength = newsList.length;
-
-            let list =[]
-            for(let i=0; i<newsListLength; i++){
-                if(i ==0){
-                    console.log('i :', i)
-                    console.log(`newsList[${i}]: `, newsList[i])
-                    list = [...list, newsList[i]]
-                    
-                    console.log('list :', list)
-                    // continue; // 다시 for문으로 자바스크립트에 없는 듯
-                    
-                }
-                
-                if(i % pageSize != 0 ){
-                    console.log('i :', i)
-                    console.log(`newsList[${i}]: `, newsList[i])
-                    list = [...list, newsList[i]]
-                    
-                    console.log('list :', list)
-                } else{
-                    if (i !=0){
-                        paginationList.push(list);
-                        console.log('paginationList :', paginationList)
-                        list =[]
-                        list.push(newsList[i])
-                    }
-                }
-
-                // 마지막 페이지에 대한 처리
-                if (i === newsListLength - 1) {
-                    paginationList.push(list);
-                }
-             }
-             console.log('paginationList: ', paginationList)
-             totalResults = data[0].totalResults;
-             render();
-         } else{
-            throw new Error('예상 못한 에러를 만났습니다.')
-         }
-
-    } catch(e){
-        console.log(e.message)
-        errorRender(e.message)
-        
-    }
-    
-}
-
-getNews2();
 
 
-
-
-
-// async function getNews3(){
-//     const newsUrl = new URL(url2);
-//     newsUrl.searchParams.set("page",page)  // &page=page
-//     newsUrl.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
+// async function getNews2(){
 //     try{
 //         const response = await fetch(url2);   //너무 많이 이용해서 블록당해서 하루 정도 쉰다.
 //         const data = await response.json()
@@ -319,15 +247,48 @@ getNews2();
 //         //    {status: 'ok', totalResults: 37, articles: Array(3)}
 //         //]
 //          if (response.status == 200){
-//             console.log('data : ', data);
-//             if(data[1].articles.length == 0){                
+//             if(data[0].articles.length == 0){                
 //                 throw new Error('No result for this search');
 //             }
-//              newsList = data[1].articles;
-//              totalResults = data[1].totalResults;
+//              newsList = data[0].articles;
+//              console.log('newsList :', newsList)
+//              const newsListLength = newsList.length;
+
+//             let list =[]
+//             for(let i=0; i<newsListLength; i++){
+//                 if(i ==0){
+//                     console.log('i :', i)
+//                     console.log(`newsList[${i}]: `, newsList[i])
+//                     list = [...list, newsList[i]]
+                    
+//                     console.log('list :', list)
+//                     // continue; // 다시 for문으로 자바스크립트에 없는 듯
+                    
+//                 }
+                
+//                 if(i % pageSize != 0 ){
+//                     console.log('i :', i)
+//                     console.log(`newsList[${i}]: `, newsList[i])
+//                     list = [...list, newsList[i]]
+                    
+//                     console.log('list :', list)
+//                 } else{
+//                     if (i !=0){
+//                         paginationList.push(list);
+//                         console.log('paginationList :', paginationList)
+//                         list =[]
+//                         list.push(newsList[i])
+//                     }
+//                 }
+
+//                 // 마지막 페이지에 대한 처리
+//                 if (i === newsListLength - 1) {
+//                     paginationList.push(list);
+//                 }
+//              }
+//              console.log('paginationList: ', paginationList)
+//              totalResults = data[0].totalResults;
 //              render();
-//             //  pagiNationRender()   이것을 render()안으로 넣자.
-//              console.log(newsList)
 //          } else{
 //             throw new Error('예상 못한 에러를 만났습니다.')
 //          }
@@ -335,11 +296,56 @@ getNews2();
 //     } catch(e){
 //         console.log(e.message)
 //         errorRender(e.message)
+        
 //     }
     
 // }
 
-// getNews3();
+// getNews2();
+
+
+
+
+
+async function getNews3(){
+    const newsUrl = new URL(url2);
+    newsUrl.searchParams.set("page",page)  // &page=page
+    newsUrl.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
+    try{
+        const response = await fetch(url2);   //너무 많이 이용해서 블록당해서 하루 정도 쉰다.
+        const data = await response.json()
+        console.log('data: ', data)  
+        // [
+        //    {status: 'ok', totalResults: 37, articles: Array(37)},
+        //    {status: 'ok', totalResults: 37, articles: Array(3)}
+        //]
+         if (response.status == 200){
+            console.log('data : ', data);
+            if(data[1].articles.length == 0){                
+                throw new Error('No result for this search');
+            }
+             newsList = data[1].articles;
+             paginationList.push(newsList)
+            //  totalResults = data[1].totalResults;
+            // 원래는 위와 같이 해야 되나, 제공한 api가 잘못 37로 기재했다.
+            totalResults = 3;
+            
+             console.log('totalResults :', totalResults)
+             render();
+            //  pagiNationRender()   이것을 render()안으로 넣자.
+             console.log(newsList)
+         } else{
+            throw new Error('예상 못한 에러를 만났습니다.')
+         }
+
+    } catch(e){
+        console.log(e.message)
+        errorRender(e.message)
+    }
+    
+}
+
+getNews3();
 
 
 
