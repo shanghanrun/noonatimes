@@ -1,3 +1,4 @@
+
 const apiKey ='4c2d201c758b4664ab2eeaa863a7bbee'
 let country = 'kr'
 let url = `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${apiKey}`;
@@ -321,6 +322,7 @@ async function getNews3(){
         //]
          if (response.status == 200){
             console.log('data : ', data);
+
             if(data[1].articles.length == 0){                
                 throw new Error('No result for this search');
             }
@@ -334,6 +336,14 @@ async function getNews3(){
              render();
             //  pagiNationRender()   이것을 render()안으로 넣자.
              console.log(newsList)
+
+
+
+            // 예제: JSON 데이터를 파일로 저장
+            // saveToJson(data[0].articles, 'news1.json');
+            saveToJson(data[1].articles, 'news2.json');
+
+
          } else{
             throw new Error('예상 못한 에러를 만났습니다.')
          }
@@ -347,5 +357,20 @@ async function getNews3(){
 
 getNews3();
 
+
+// 데이터를 JSON 파일로 저장하는 함수
+function saveToJson(data, filename) {
+    const json = JSON.stringify(data);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
 
 

@@ -1,0 +1,483 @@
+[
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Joel Khalili",
+        "title": "The Trial Over Bitcoin’s True Creator Is in Session",
+        "description": "A UK High Court will settle a long-running debate over whether Craig Wright really is Satoshi Nakamoto, inventor of Bitcoin. Monday’s opening arguments laid the groundwork for both sides.",
+        "url": "https://www.wired.com/story/craig-wright-bitcoin-satoshi-nakamoto-trial/",
+        "urlToImage": "https://media.wired.com/photos/65bd7e2524c06ba3ede91a33/191:100/w_1280,c_limit/Craig-Wright-Trial-Day-1-Business-Yellow-1494808061.jpg",
+        "publishedAt": "2024-02-05T21:07:04Z",
+        "content": "For eight years, Craig Wright has claimed to be the elusive Bitcoin creator Satoshi Nakamoto. On Monday, in the swelling heat of a UK courtroom, a trial began that will finally settle the question.\r\n… [+3163 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Artem Golub and Thomas Germain",
+        "title": "Why Bitcoin Won’t Reach $1,000,000",
+        "description": "Coindesk’s Andy Baehr says Bitcoin is just a normal, bread and butter investment now.",
+        "url": "https://gizmodo.com/why-bitcoin-won-t-reach-1-000-000-1851252185",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/d27f57afb7ac3501d4d69ce6afff190b.jpg",
+        "publishedAt": "2024-02-13T18:15:00Z",
+        "content": "Coindesks Andy Baehr says Bitcoin is just a normal, bread and butter investment now."
+    },
+    {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Emma Roth",
+        "title": "A SIM-swapping attack was behind the SEC’s fake Bitcoin post",
+        "description": "The Securities and Exchange Commission says a SIM swapping attack was responsible for its account breach on X earlier this month.",
+        "url": "https://www.theverge.com/2024/1/22/24047379/sec-fake-bitcoin-post-x-sim-swapping",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/-q2P7D7-hJSIGn1oJJqaQJm1AhE=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg",
+        "publishedAt": "2024-01-22T23:19:12Z",
+        "content": "A SIM-swapping attack was behind the SECs fake Bitcoin post\r\nA SIM-swapping attack was behind the SECs fake Bitcoin post\r\n / The SEC says a bad actor gained control of the phone number associated wit… [+1611 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Maxwell Zeff",
+        "title": "Bitcoin Wears a Patagonia Vest Now, but Is It Still Crypto?",
+        "description": "Cryptocurrency cleaned up its act this week as spot Bitcoin ETFs made their Wall Street debut in January. The digital tokens are looking almost unrecognizable from what the industry represented just a few years ago, leading to the question, is Bitcoin still c…",
+        "url": "https://gizmodo.com/bitcoin-wears-patagonia-vest-now-is-it-still-crypto-1851216868",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/5cf152d4aa3e03d74ce08b74ea03e1a3.png",
+        "publishedAt": "2024-02-02T13:00:00Z",
+        "content": "Cryptocurrency cleaned up its act this week as spot Bitcoin ETFs made their Wall Street debut in January. The digital tokens are looking almost unrecognizable from what the industry represented just … [+2710 chars]"
+    },
+    {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Justine Calma",
+        "title": "Crypto mines will have to start reporting their energy use in the US",
+        "description": "The US Energy Information Administration says it will start a survey of crypto mines’ electricity consumption following concerns about Bitcoin’s energy hunger and greenhouse gas emissions.",
+        "url": "https://www.theverge.com/2024/1/31/24057176/crypto-bitcoin-mining-survey-us-energy-information-administration",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/-W7lVDL2lRP_1kdCg8KuwSPKXLk=/0x0:7360x4912/1200x628/filters:focal(3680x2456:3681x2457)/cdn.vox-cdn.com/uploads/chorus_asset/file/25259226/1235927106.jpg",
+        "publishedAt": "2024-01-31T19:30:56Z",
+        "content": "Crypto mines will have to start reporting their energy use in the US\r\nCrypto mines will have to start reporting their energy use in the US\r\n / A survey of crypto mines electricity consumption in the … [+2701 chars]"
+    },
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Andy Greenberg",
+        "title": "How a 27-Year-Old Codebreaker Busted the Myth of Bitcoin’s Anonymity",
+        "description": "Once, drug dealers and money launderers saw cryptocurrency as perfectly untraceable. Then a grad student named Sarah Meiklejohn proved them all wrong—and set the stage for a decade-long crackdown.",
+        "url": "https://www.wired.com/story/27-year-old-codebreaker-busted-myth-bitcoins-anonymity/",
+        "urlToImage": "https://media.wired.com/photos/65a72695e5015b60480cbdf6/191:100/w_1280,c_limit/Meiklejohn_Final_Static2.jpg",
+        "publishedAt": "2024-01-17T11:00:00Z",
+        "content": "When Meiklejohn started college at Brown in 2004, she discovered cryptography. This branch of computer science appealed directly to her puzzle addictionwhat was an encryption system, after all, but a… [+5574 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Joshua Zitser",
+        "title": "A guy just signed a contract to rent an apartment using bitcoin, likely a world first",
+        "description": "A landlord and tenant signed Argentina's first-ever bitcoin-based rental contract. It may also be the first contract of its kind in the world.",
+        "url": "https://www.businessinsider.com/argentina-crypto-first-ever-bitcoin-rental-contract-landlord-tenant-2024-1",
+        "urlToImage": "https://i.insider.com/65a67a556979d737182373a3?width=1200&format=jpeg",
+        "publishedAt": "2024-01-16T14:04:06Z",
+        "content": "An illustration of bitcoin, left, and a stock image of two men shaking after signing a rental agreement.Getty Images\r\n<ul><li>A landlord and tenant in Argentina signed the country's first-ever bitcoi… [+1720 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "BeauHD",
+        "title": "German Police Secure $2 Billion In Bitcoin From Pirate Site Operators",
+        "description": "An anonymous reader quotes a report from TorrentFreak: With help from the FBI, German police managed to secure nearly 50,000 bitcoin (USD $2 billion) from the operators of the defunct movie streaming portal, Movie2k. [...] Movie2K was another pirate site that…",
+        "url": "https://yro.slashdot.org/story/24/01/30/2318257/german-police-secure-2-billion-in-bitcoin-from-pirate-site-operators",
+        "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+        "publishedAt": "2024-01-31T00:10:00Z",
+        "content": "With help from the FBI, German police managed to secure nearly 50,000 bitcoin (USD $2 billion) from the operators of the defunct movie streaming portal, Movie2k. [...] Movie2K was another pirate site… [+1548 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Lina Batarags",
+        "title": "Jack Dorsey showed up to the Super Bowl rocking a 'Satoshi' t-shirt",
+        "description": "Dorsey — who cofounded and was formerly the CEO of Twitter, now known as X — was photographed at the Super Bowl sitting with Beyonce and Jay-Z.",
+        "url": "https://www.businessinsider.com/jack-dorsey-satoshi-tshirt-nirvana-super-bowl-bitcoin-jayz-2024-2",
+        "urlToImage": "https://i.insider.com/65c9a3ad610ab33aa5deea9c?width=1200&format=jpeg",
+        "publishedAt": "2024-02-12T06:10:54Z",
+        "content": "Jack Dorsey, center, wrote a \"Satoshi\" t-shirt to the Super Bowl.Carmen Mandato / Staff / Getty Images\r\n<ul><li>Jack Dorsey was at the Super Bowl.</li><li>He wore a t-shirt that says \"Satoshi,\" embla… [+2446 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Theron Mohamed",
+        "title": "BlackRock CEO Larry Fink warns of stubborn inflation - but expects growth to accelerate this year if interest rates drop",
+        "description": "Larry Fink, the boss of the world's largest asset manager, is bullish on the US economy's prospects, and says bitcoin has some merits.",
+        "url": "https://www.businessinsider.com/blackrock-larry-fink-inflation-growth-recession-outlook-fed-rate-cuts-2024-1",
+        "urlToImage": "https://i.insider.com/652fbc37211def8ed837e42a?width=1200&format=jpeg",
+        "publishedAt": "2024-01-15T12:14:45Z",
+        "content": "BlackRock CEO Larry Fink.REUTERS/Ruben Sprich\r\n<ul>\n<li>Inflation could prove harder to conquer than many people think, Larry Fink says.</li>\n<li>The BlackRock CEO expects US economic growth to pick … [+2101 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "asoni@insider.com (Aruni Soni)",
+        "title": "Crypto miners used the same amount of electricity as all of Australia last year",
+        "description": "In the US alone, crypto mining uses 0.6% to 2.3% of the country's electricity demand — as much as entire states like Utah or West Virginia.",
+        "url": "https://markets.businessinsider.com/news/currencies/bitcoin-crypto-mining-electricity-energy-us-government-cryptocurrency-australia-eia-2024-2",
+        "urlToImage": "https://i.insider.com/65c125247a3d27148877c187?width=1200&format=jpeg",
+        "publishedAt": "2024-02-05T19:45:52Z",
+        "content": "In 2023, crypto miners around the world used as much electricity as the entirety of Australia. \r\nThat's according to a new report from the Energy Information Administration. In an analysis posted las… [+1923 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "EditorDavid",
+        "title": "Over 2 Percent of the US's Electricity Generation Now Goes To Bitcoin",
+        "description": "\"In the last few years, the U.S. has seen a boom in cryptocurrency mining,\" writes Ars Technica. But they add that the U.S. government \"is now trying to track exactly what that means for the consumption of electricity. Specifically, a crucial branch of the U.…",
+        "url": "https://hardware.slashdot.org/story/24/02/03/0428251/over-2-percent-of-the-uss-electricity-generation-now-goes-to-bitcoin",
+        "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+        "publishedAt": "2024-02-03T18:34:00Z",
+        "content": "\"In the last few years, the U.S. has seen a boom in cryptocurrency mining,\" writes Ars Technica. But they add that the U.S. government \"is now trying to track exactly what that means for the consumpt… [+2040 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "EditorDavid",
+        "title": "Companies Once Focused On Mining Cryptocurrency Pivot To Generative AI",
+        "description": "\"Companies that once serviced the boom in cryptocurrency mining are pivoting to take advantage of the latest data gold rush,\" reports the Guardian.\n\nCanadian company Hive Blockchain changed its name in July to Hive Digital Technologies and announced it was pi…",
+        "url": "https://news.slashdot.org/story/24/01/27/0724239/companies-once-focused-on-mining-cryptocurrency-pivot-to-generative-ai",
+        "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "publishedAt": "2024-01-27T17:34:00Z",
+        "content": "Canadian company Hive Blockchain changed its name in July to Hive Digital Technologies and announced it was pivoting to AI. \"Hive has been a pioneering force in the cryptocurrency mining sector since… [+2057 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "ReadWrite"
+        },
+        "author": "Deanna Ritchie",
+        "title": "Everyone wants to buy and sell bitcoin after the SEC made it easier",
+        "description": "Over the last two weeks, Bitcoin’s value has dropped by 15% as some investors have taken advantage of the much-heralded […]\nThe post Everyone wants to buy and sell bitcoin after the SEC made it easier appeared first on ReadWrite.",
+        "url": "https://readwrite.com/everyone-wants-to-buy-and-sell-bitcoin-after-the-sec-made-it-easier/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/01/buy-and-sell-bitcoin.jpg",
+        "publishedAt": "2024-01-25T01:48:20Z",
+        "content": "Over the last two weeks, Bitcoin’s value has dropped by 15% as some investors have taken advantage of the much-heralded introduction of bitcoin exchange-traded funds earlier this month to sell their … [+2411 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Bitcointalk.org"
+        },
+        "author": null,
+        "title": "The Bitcoin Social Network",
+        "description": "The Bitcoin Social Network",
+        "url": "https://bitcointalk.org/index.php?topic=5482476.0",
+        "urlToImage": null,
+        "publishedAt": "2024-01-21T22:57:40Z",
+        "content": "The Bitcoin Social NetworkA decentralized system is proposed to resolve the escalating transaction costs for Bitcoin transactions, from increasing demand in extra information being saved on the Bitco… [+1224 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "BeauHD",
+        "title": "'Stablecoins' Enabled $40 Billion In Crypto Crime Since 2022",
+        "description": "An anonymous reader quotes a report from Wired: Stablecoins, cryptocurrencies pegged to a stable value like the US dollar, were created with the promise of bringing the frictionless, border-crossing fluidity of Bitcoin to a form of digital money with far less…",
+        "url": "https://yro.slashdot.org/story/24/01/18/2112213/stablecoins-enabled-40-billion-in-crypto-crime-since-2022",
+        "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+        "publishedAt": "2024-01-18T22:00:00Z",
+        "content": "An anonymous reader quotes a report from Wired: Stablecoins, cryptocurrencies pegged to a stable value like the US dollar, were created with the promise of bringing the frictionless, border-crossing … [+3000 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Theron Mohamed",
+        "title": "Gary Shilling says the S&P 500 may crash 30%, a recession will hit — and bitcoin and AI are both overhyped",
+        "description": "Stocks are poised to disappoint, recession alarms are flashing, and speculation is rife in tech and crypto, says market prophet Gary Shilling.",
+        "url": "https://markets.businessinsider.com/news/stocks/gary-shilling-stock-market-outlook-crash-spx-recession-bitcoin-ai-2024-2",
+        "urlToImage": "https://i.insider.com/65c49f4943bb77284ba4d201?width=1200&format=jpeg",
+        "publishedAt": "2024-02-08T09:36:13Z",
+        "content": "Gary Shilling.A. Gary Shilling & Co.\r\n<ul>\n<li>The S&P 500 may be headed for a 30% crash, a legendary market forecaster has warned.</li>\n<li>Gary Shilling said stocks are \"very expensive and very dis… [+3820 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "ReadWrite"
+        },
+        "author": "Brad Anderson",
+        "title": "How Can Your Startup Support Cryptocurrency?",
+        "description": "Cryptocurrency will become more popular and more accepted as more mainstream businesses support it. Without that ongoing recognition and perceived […]\nThe post How Can Your Startup Support Cryptocurrency? appeared first on ReadWrite.",
+        "url": "https://readwrite.com/how-can-your-startup-support-cryptocurrency/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/01/examples-of-cryptocurrency-scaled.jpg",
+        "publishedAt": "2024-01-26T19:45:43Z",
+        "content": "Cryptocurrency will become more popular and more accepted as more mainstream businesses support it. Without that ongoing recognition and perceived legitimacy, cryptocurrencies may continue to exist i… [+7636 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "El Salvador's president eyes re-election on back of gang crackdown",
+        "description": "President Nayib Bukele is far ahead of rivals in polls - but not all voters are convinced.",
+        "url": "https://www.bbc.co.uk/news/world-latin-america-68195441",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9CD0/production/_132544104_screenshot2024-02-03202206.jpg",
+        "publishedAt": "2024-02-04T00:50:33Z",
+        "content": "There was no doubting Francisco Villegas' political colours as he stepped off his flight into El Salvador. \r\nDraped in a flag bearing President Nayib Bukele's face, he was dressed in light blue - the… [+6173 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "mfox@businessinsider.com (Matthew Fox)",
+        "title": "US stocks eye fresh record highs as earnings season heats up",
+        "description": "With 10% of the S&P 500 having reported earnings so far, 65% are beating profit estimates with a median gain of 6%, according to Fundstrat.",
+        "url": "https://markets.businessinsider.com/news/stocks/stock-market-news-today-record-highs-q4-earnings-season-economy-2024-1",
+        "urlToImage": "https://i.insider.com/62029ae9bd50410019192ee1?width=1200&format=jpeg",
+        "publishedAt": "2024-01-22T14:37:51Z",
+        "content": "US stocks jumped on Monday to new record highs, extending their gain from last week as the fourth-quarter earnings season gets underway. \r\nThere are 75 S&amp;P 500 companies scheduled to report fourt… [+996 chars]"
+    },
+    {
+        "source": {
+            "id": "fortune",
+            "name": "Fortune"
+        },
+        "author": "Jeff John Roberts",
+        "title": "Craig Wright offers settlement to Bitcoin developers",
+        "description": "Craig Wright has terrorized the crypto world for nearly a decade with bogus lawsuits, but the tables may have turned.",
+        "url": "https://fortune.com/crypto/2024/01/25/craig-wright-bitcoin-satoshi-claim-legal-battle/",
+        "urlToImage": "https://content.fortune.com/wp-content/uploads/2024/01/GettyImages-1495410657-e1706209300174.jpg?resize=1200,600",
+        "publishedAt": "2024-01-26T02:33:52Z",
+        "content": "The crypto world is rife with scammers, including the Colorado pastor I wrote about on Monday who spent the proceeds from a token hustle on home renovations because the Lord told us to. But one of th… [+3635 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": null,
+        "title": "Hal Finney was the designer of Bitcoin",
+        "description": "It has been an open secret in the cryptography community that Hal Finney was the designer of BitCoin from the very start. Hal died in 2014. Or at least he was frozen in liquid nitrogen so not talking either way.Besides being the first person to be involved in…",
+        "url": "https://yro.slashdot.org/comments.pl?sid=23217056&cid=64218342",
+        "urlToImage": null,
+        "publishedAt": "2024-02-06T14:53:30Z",
+        "content": "It has been an open secret in the cryptography community that Hal Finney was the designer of BitCoin from the very start. Hal died in 2014. Or at least he was frozen in liquid nitrogen so not talking… [+1180 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "Jamie Dimon still sees no value in bitcoin after ETFs debut: ‘please stop talking about this s___’",
+        "description": "Jamie Dimon, chief executive at JPMorgan Chase & Co. JPM, said he still sees no value in bitcoin and is done with talking about the crypto, after the first several bitcoin exchange traded funds debuted in the U.S. last week.",
+        "url": "https://www.marketwatch.com/story/jamie-dimon-still-sees-no-value-in-bitcoin-after-etfs-debut-please-stop-talking-about-this-s-949b7c54",
+        "urlToImage": "https://images.mktw.net/im-05670152/social",
+        "publishedAt": "2024-01-17T16:39:00Z",
+        "content": "Jamie Dimon, chief executive at JPMorgan Chase &amp; Co. \r\n JPM,\r\n +0.12%\r\n,\r\n said he still sees no value in bitcoin and is done with talking about the crypto, after the first several bitcoin exchan… [+1593 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Christine Idzelis, Frances Yue",
+        "title": "Bitcoin ETFs just had their first week of trading. Here’s who’s winning and losing.",
+        "description": "Grayscale’s newly converted spot bitcoin ETF sees outflows, while other large firms are attracting assets to recently launched funds",
+        "url": "https://www.marketwatch.com/story/bitcoin-etfs-just-had-their-first-week-of-trading-heres-whos-winning-and-losing-0272abce",
+        "urlToImage": "https://images.mktw.net/im-10357439/social",
+        "publishedAt": "2024-01-20T12:00:00Z",
+        "content": "BlackRock is leading inflows into spot bitcoin exchange-traded funds after about a week of trading, as investors weigh a group of similar ETFs that all launched on the same day.Its pretty clear that … [+6270 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Karissa Bell",
+        "title": "The SEC says its X account was taken over with a SIM swap attack",
+        "description": "The Securities and Exchange Commission has provided more details about how its official X account was compromised earlier this month. In a statement\r\n, the regulator confirmed that it had been the victim of a SIM swapping attack and that its X account was not…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d01a17c5-2d90-4412-9e09-e2e158f9b557",
+        "urlToImage": null,
+        "publishedAt": "2024-01-23T00:45:42Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 244 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "Bitcoin had a nice 2023. Why smaller crypto assets could now see bigger gains.",
+        "description": "A weekly look at the most important moves and news in crypto and what's on the horizon in digital assets.",
+        "url": "https://www.marketwatch.com/story/bitcoin-had-a-nice-2023-why-smaller-crypto-assets-could-now-see-bigger-gains-788dcffc",
+        "urlToImage": "https://images.mktw.net/im-783732/social",
+        "publishedAt": "2024-01-17T21:11:00Z",
+        "content": "Welcome back to Distributed Ledger. This is Frances Yue, crypto and markets reporter at MarketWatch.Bitcoin \r\n BTCUSD,\r\n -1.67%\r\nrallied over 150% in 2023, as the worlds largest cryptocurrency by mar… [+3513 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yanko Design"
+        },
+        "author": "JC Torres",
+        "title": "Smart piggy bank concept brings the Bitcoin feeling to physical coins",
+        "description": "Smart piggy bank concept brings the Bitcoin feeling to physical coinsCryptocurrencies like Bitcoin and its cousins were supposed to revolutionize the way the world sees and uses money, but it will take more than just...",
+        "url": "https://www.yankodesign.com/2024/02/08/smart-piggy-bank-concept-brings-the-bitcoin-feeling-to-physical-coins/",
+        "urlToImage": "https://www.yankodesign.com/images/design_news/2024/02/smart-piggy-bank-concept-brings-the-bitcoin-feeling-to-physical-coins/smart-piggy-bank-concept-3.jpg",
+        "publishedAt": "2024-02-08T12:40:51Z",
+        "content": "Cryptocurrencies like Bitcoin and its cousins were supposed to revolutionize the way the world sees and uses money, but it will take more than just a few revolutionary ideas to change a system that h… [+2443 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "A small bitcoin addition could double a traditional portfolio’s return, this asset manager says.",
+        "description": "A weekly look at the most important news and moves in crypto, and what’s on the horizon in digital assets.",
+        "url": "https://www.marketwatch.com/story/a-small-bitcoin-addition-could-double-a-traditional-portfolios-return-this-asset-manager-says-7a8a2853",
+        "urlToImage": "https://images.mktw.net/im-783732/social",
+        "publishedAt": "2024-01-31T19:00:00Z",
+        "content": "Welcome back to Distributed Ledger. This is Frances Yue, crypto and markets reporter at MarketWatch.Bitcoin \r\n BTCUSD,\r\n -0.06%\r\nETFs have been trading for a few weeks and some investors have been wo… [+3436 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Emily Bary",
+        "title": "Why Marathon Digital’s stock screams ‘buy,’ according to this new bull",
+        "description": "A BTIG analyst sees roughly 50% upside as Marathon shares have sold off following spot bitcoin ETF launches.",
+        "url": "https://www.marketwatch.com/story/why-marathon-digitals-stock-screams-buy-according-to-this-new-bull-61e1bbd1",
+        "urlToImage": "https://images.mktw.net/im-809463/social",
+        "publishedAt": "2024-01-17T15:07:00Z",
+        "content": "The recent launch of spot bitcoin ETFs appears to have driven some fund flows away from bitcoin mining stocks, according to a BTIG analyst, but he now sees plenty of shine in shares of Marathon Digit… [+1863 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Hackaday"
+        },
+        "author": "Jonathan Bennett",
+        "title": "FLOSS Weekly Episode 769: OpenCost — We Spent How Much?",
+        "description": "This week Jonathan Bennett and Katherine Druckman talk with Matt Ray about OpenCost. What exactly is Cloud Native? Why do we need a project just for tracking expenses? Doesn’t the cloud make …",
+        "url": "https://hackaday.com/2024/02/07/floss-weekly-episode-769-opencost-we-spent-how-much/",
+        "urlToImage": "https://hackaday.com/wp-content/uploads/2024/02/FLOSS-769.png",
+        "publishedAt": "2024-02-08T00:00:22Z",
+        "content": "This week Jonathan Bennett and Katherine Druckman talk with Matt Ray about OpenCost. What exactly is Cloud Native? Why do we need a project just for tracking expenses? Doesn’t the cloud make everythi… [+1112 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "ReadWrite"
+        },
+        "author": "Rachael Davis",
+        "title": "Cyber security agency warns this WordPress widget might leak data",
+        "description": "A WordPress crypto widget used by thousands could contain a security vulnerability that could leak data to potential attackers. Cyber […]\nThe post Cyber security agency warns this WordPress widget might leak data appeared first on ReadWrite.",
+        "url": "https://readwrite.com/security-cyber-agency-warns-this-wordpress-widget-might-leak-data/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/02/pexels-sora-shimazaki-5935794-scaled.jpg",
+        "publishedAt": "2024-02-08T12:49:33Z",
+        "content": "A WordPress crypto widget used by thousands could contain a security vulnerability that could leak data to potential attackers.\r\nCyber Security Agency (CSA) Singapore has released a security bulletin… [+1839 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "Bitcoin is down 20% in wake of a new breed of ETFs. Why prices could still set records this year.",
+        "description": "Some analysts still see room for the digital asset to reach an all-time high by the end of this year.",
+        "url": "https://www.marketwatch.com/story/bitcoin-is-down-20-in-wake-of-a-new-breed-of-etfs-why-prices-could-still-set-records-this-year-eb89bd9c",
+        "urlToImage": "https://images.mktw.net/im-261586/social",
+        "publishedAt": "2024-01-24T22:33:00Z",
+        "content": "Bitcoin has fallen almost 20% in the past two weeks, when a new breed of U.S. exchange-traded funds debuted that invest in the cryptocurrency. Some analysts still see room for the digital asset to re… [+4330 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "New bitcoin ETFs are boosting crypto exchanges. Here’s how.",
+        "description": "A weekly look at the most important news and moves in crypto, and what’s on the horizon in digital assets.",
+        "url": "https://www.marketwatch.com/story/new-bitcoin-etfs-are-boosting-crypto-exchanges-heres-how-2ed45152",
+        "urlToImage": "https://images.mktw.net/im-783732/social",
+        "publishedAt": "2024-02-07T21:16:00Z",
+        "content": "Welcome back to Distributed Ledger. This is Frances Yue, crypto and markets reporter at MarketWatch.As investor interest in crypto assets increased with the arrival last month of new bitcoin ETFs, th… [+3212 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Bill Peters",
+        "title": "SEC weighing ‘additional measures’ after hacked post on bitcoin ETF approval",
+        "description": "The agency said an \"unauthorized party\" obtained control of the phone number connected to its account on social-media platform X.",
+        "url": "https://www.marketwatch.com/story/sec-weighing-additional-measures-after-hacked-post-on-bitcoin-etf-approval-d983921b",
+        "urlToImage": "https://images.mktw.net/im-685532/social",
+        "publishedAt": "2024-01-13T02:04:00Z",
+        "content": "The Securities and Exchange Commission on Friday said that a social-media post on X falsely stating that it had approved spot bitcoin exchange-traded funds was created after an unauthorized party obt… [+2644 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "9to5Mac"
+        },
+        "author": "Ben Lovejoy",
+        "title": "FTX customers look set to get their money back in full (with asterisk)",
+        "description": "In a surprise development, bankruptcy lawyers say that FTX customers – once considered to have lost almost everything – are now expected to get their money back in full from the remains of the cryptocurrency company … \n\n\n\n more…",
+        "url": "https://9to5mac.com/2024/02/12/ftx-customers-money/",
+        "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/02/FTX-customers.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "publishedAt": "2024-02-12T13:07:00Z",
+        "content": "In a surprise development, bankruptcy lawyers say that FTX customers once considered to have lost almost everything are now expected to get their money back in full from the remains of the cryptocurr… [+1808 chars]"
+    },
+    {
+        "source": {
+            "id": "abc-news",
+            "name": "ABC News"
+        },
+        "author": "Aaron Katersky",
+        "title": "Opening statements in trial of NYC woman charged with financing terrorist groups",
+        "description": "Opening statements are set to begin Tuesday for a woman accused of funding terrorist groups through cryptocurrency.",
+        "url": "https://abcnews.go.com/US/opening-statements-trial-woman-charged-financing-terrorist-groups/story?id=106389259",
+        "urlToImage": "https://i.abcnewsfe.com/a/30b7cd0d-cf8a-4860-a7ca-20ed08da16cf/cryptocurrency-gty-lv-240115_1705354677307_hpMain_16x9.jpg?w=1600",
+        "publishedAt": "2024-01-15T22:24:21Z",
+        "content": "Opening statements are expected Tuesday in the trial of Victoria Jacobs, an Uzbekistan native who is charged with using cryptocurrency to fund Syrian-based terrorist groups and launder supporters' co… [+2654 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "MarketWatch",
+        "title": "These mutual fund and ETF investing tips can help you ride the market’s waves",
+        "description": "Don’t miss these top mutual fund and ETF investing features: Take that, Wall Street! Pariah Capital wins again — and the picks for 2024 Large-cap ETFs seem...",
+        "url": "https://www.marketwatch.com/story/these-mutual-fund-and-etf-investing-tips-can-help-you-ride-the-markets-waves-3ff7d610",
+        "urlToImage": "https://images.mktw.net/im-503925/social",
+        "publishedAt": "2024-01-20T10:11:00Z",
+        "content": "Sign up here to get MarketWatchs best mutual fund and ETF stories emailed to you weekly!The argument for seeing what the top money managers are buying and running in the other direction. Read MoreLar… [+1828 chars]"
+    }
+]
