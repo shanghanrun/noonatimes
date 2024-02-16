@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 69,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "X took payment from terrorists, campaigners say - BBC.com",
+            "description": "Campaigners at the Tech Transparency Project in the US found paid-for features for organisations.",
+            "url": "https://www.bbc.com/news/business-68297121",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/E385/production/_132654285_x.jpg",
+            "publishedAt": "2024-02-15T01:39:02Z",
+            "content": "By Faarea Masud &amp; Natalie ShermanBusiness reporters\r\nElon Musk's X, formerly Twitter, granted subscription perks to designated terrorist groups and others barred from operating in the US, accordi… [+3886 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Lora Kolodny",
+            "title": "SpaceX files to move incorporation site from Delaware to Texas - CNBC",
+            "description": "After a Delaware court ordered Tesla to rescind CEO Elon Musk's $56 billion 2018 pay package, the billionaire plans to move SpaceX's incorporate site to Texas.",
+            "url": "https://www.cnbc.com/2024/02/14/spacex-files-to-move-incorporation-site-from-delaware-to-texas.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107373932-17079510322024-02-14t224936z_1500628676_rc2m26alutxp_rtrmadp_0_space-exploration-ussf-124.jpeg?v=1707951103&w=1920&h=1080",
+            "publishedAt": "2024-02-15T00:32:00Z",
+            "content": "SpaceX has filed to change its incorporation location to Texas from Delaware, according to public filings with the Texas Secretary of State.\r\nIt's the latest move by Elon Musk following a Delaware Ch… [+1240 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Julie Coleman",
+            "title": "Cisco CEO attributes light forecast to cautious customers and an 'inventory consumption issue' - CNBC",
+            "description": "Cisco CEO Chuck Robbins told CNB's Jim Cramer why his company issued a light forecast.",
+            "url": "https://www.cnbc.com/2024/02/14/cisco-ceo-attributes-light-forecast-to-cautious-customers-inventory-issue.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107371685-1707501821404-gettyimages-1247569578-Mobile_Word_Congress_2023_Ramon_Costa_Hospitalet_de_LLobregat_Spain_February_27_2023_11.jpeg?v=1707501953&w=1920&h=1080",
+            "publishedAt": "2024-02-15T00:07:00Z",
+            "content": "In a Wednesday post-earnings interview with CNBC's Jim Cramer, Cisco CEO Chuck Robbins listed several factors that lead to a light quarterly and full-year forecast, including weakness in orders from … [+1091 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Clement Tan",
+            "title": "Japan's economy unexpectedly slips into recession, hurt by weak domestic demand - CNBC",
+            "description": "Provisional gross domestic product contracted 0.4% in the fourth quarter compared with a year ago, after contracting 2.9% in the July-September period.",
+            "url": "https://www.cnbc.com/2024/02/15/japan-q4-2023-gdp.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107371307-1707443916167-gettyimages-1497289564-040666_53.jpeg?v=1707444086&w=1920&h=1080",
+            "publishedAt": "2024-02-15T00:00:00Z",
+            "content": "Japan's economy dipped into a technical recession, after unexpectedly contracting again in the October-December period, provisional government data showed Thursday. High inflation crimped domestic de… [+2643 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Eric Platt",
+            "title": "Warren Buffett's Berkshire Hathaway pares its stake in Apple - Financial Times",
+            "description": "Share sale follows investor’s admission that an earlier cut to its holding may have been a mistake",
+            "url": "https://www.ft.com/content/780409aa-8285-4c58-bb1e-97c6f69a87b9",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F8486686b-1b43-4deb-922e-0b479aaf9066.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2024-02-14T23:56:38Z",
+            "content": "Warren Buffetts Berkshire Hathaway sold 10mn Apple shares in the last three months of 2023, cutting into a position that the so-called Oracle of Omaha has called one of the four giants that account f… [+3112 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Japan chipmaker Renesas to buy software company Altium for $5.9 bln - Reuters",
+            "description": null,
+            "url": "https://www.reuters.com/technology/japanese-chipmaker-renesas-buy-australian-software-firm-altium-59-bln-2024-02-14/",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T23:43:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SFGate"
+            },
+            "author": "SFGATE",
+            "title": "'Yelling, screaming' fistfight breaks out on Oakland to Hawaii flight - SFGATE",
+            "description": null,
+            "url": "https://www.sfgate.com/travel/article/fight-oakland-hawaii-flight-18667951.php",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T23:12:44Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Quentyn Kennemer",
+            "title": "Best Presidents Day deals 2024: sales on TVs, wireless earbuds, and more - The Verge",
+            "description": "We’ve found more than two dozen early Presidents Day deals on the tech we recommend most, including OLED TVs, robot vacuums, games, earbuds, and more.",
+            "url": "https://www.theverge.com/24072881/best-presidents-day-sales-deals-2024-apple-tvs-gaming-headphones-smartwatches",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/REpl7sYeLsNef-TfZjRMjWxo0GA=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23905443/DSCF8471.jpg",
+            "publishedAt": "2024-02-14T23:05:45Z",
+            "content": "The best Presidents Day deals you can already get\r\nThe best Presidents Day deals you can already get\r\n / You can score savings on plenty of our favorite tech, from TVs and robovacs to games, earbuds,… [+10022 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "MICHAEL LIEDTKE",
+            "title": "Cisco Systems to lay off more than 4,000 workers in latest sign of tighter times in tech - Yahoo Finance",
+            "description": "Internet networking pioneer Cisco Systems is jettisoning more than 4,000 employees, joining the parade of technology companies in a trend that has helped...",
+            "url": "https://finance.yahoo.com/news/cisco-systems-lay-off-more-224328384.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZzMVxIuuUAJGB069QItgPA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03ODA-/https://media.zenfs.com/en/ap_finance_articles_694/72fcb706c4cd12bbef82e7ba93948aa7",
+            "publishedAt": "2024-02-14T22:43:28Z",
+            "content": "SAN FRANCISCO (AP) Internet networking pioneer Cisco Systems is jettisoning more than 4,000 employees, joining the parade of technology companies in a trend that has helped boost their profits and st… [+3610 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Kif Leswing",
+            "title": "Nvidia passes Alphabet in market cap and is now the third most valuable U.S. company - CNBC",
+            "description": "The symbolic milestone is more confirmation that Nvidia has become a Wall Street darling on the back of elevated AI chips sales",
+            "url": "https://www.cnbc.com/2024/02/14/nvidia-passes-alphabet-market-cap-now-third-most-valuable-us-firm.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107373743-17079337092023-12-06t065217z_63427081_rc2er4aejroy_rtrmadp_0_nvidia-china.jpeg?v=1707933771&w=1920&h=1080",
+            "publishedAt": "2024-02-14T22:33:26Z",
+            "content": "Nvidia surpassed Google parent Alphabet in market capitalization on Wednesday. It's the latest example of how the artificial intelligence boom has sent the chipmaker's stock soaring.\r\nNvidia rose ove… [+1569 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Josh Lipton",
+            "title": "Tesla investors express bearishness on stock: Morgan Stanley - Yahoo Finance",
+            "description": "Morgan Stanley Analyst Adam Jonas is finding investor sentiment on Tesla (TSLA) to be turning bearish, he expressed in a recent note. Yahoo Finance Autos...",
+            "url": "https://finance.yahoo.com/video/tesla-investors-express-bearishness-stock-221541649.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/F_X21H0QRmBEVq.L_Ms8kA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY-/https://s.yimg.com/os/creatr-uploaded-images/2024-02/08ea67e0-cb86-11ee-bffd-008a30fc4a01",
+            "publishedAt": "2024-02-14T22:15:41Z",
+            "content": "Morgan Stanley Analyst Adam Jonas is finding investor sentiment on Tesla (TSLA) to be turning bearish, he expressed in a recent note. Yahoo Finance Autos Reporter Pras Subramanian breaks down the thr… [+3062 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Google to share oil and gas methane leaks spotted from space - Reuters",
+            "description": null,
+            "url": "https://www.reuters.com/business/environment/google-share-oil-gas-methane-leaks-spotted-space-2024-02-14/",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T22:08:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "GuruFocus Research",
+            "title": "Energy Transfer LP Reports Increased Net Income and EBITDA in Q4 2023 - Yahoo Finance",
+            "description": "Energy Transfer LP (ET) Announces Positive Financial Results and 2024 Outlook",
+            "url": "https://finance.yahoo.com/news/energy-transfer-lp-reports-increased-215957390.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/29xXZjcxFpQvEaa0IXfoYg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD01Mzg-/https://media.zenfs.com/en/us.finance.gurufocus/56c7b1284bba9ed61cec18cbb82baacc",
+            "publishedAt": "2024-02-14T21:59:57Z",
+            "content": "<ul><li>Net Income: $1.33 billion for Q4 2023, up $172 million year-over-year.\r\n</li><li>Adjusted EBITDA: Increased to $3.60 billion for Q4 2023, a $165 million rise from the previous year.\r\n</li><li… [+4657 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MarketWatch"
+            },
+            "author": "Emily Bary",
+            "title": "Twilio’s stock moves lower after earnings as revenue forecast comes in light - MarketWatch",
+            "description": "Company exceeded revenue expectations for its just-completed quarter",
+            "url": "https://www.marketwatch.com/story/twilios-stock-moves-lower-after-earnings-as-revenue-forecast-comes-in-light-a6b38374",
+            "urlToImage": "https://images.mktw.net/im-834499/social",
+            "publishedAt": "2024-02-14T21:20:00Z",
+            "content": "Twilio Inc. came up short with its revenue forecast for the current quarter, helping to drive its shares lower in Wednesdays extended session.\r\nFor the first quarter, Twilio TWLO models $1.025 billio… [+229 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Ariel Zilber",
+            "title": "Morgan Stanley to reportedly cut hundreds of jobs in wealth management division - New York Post ",
+            "description": "Morgan Stanley will lay off several hundred bankers in its wealth management division in a cost-saving measure implemented by the Wall Street firm.",
+            "url": "https://nypost.com/2024/02/14/business/morgan-stanley-to-reportedly-cut-hundreds-of-jobs-in-wealth-management-division/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/02/newspress-collage-s3kg8h05s-1707945288460.jpg?quality=75&strip=all&1707927307&w=1024",
+            "publishedAt": "2024-02-14T21:16:00Z",
+            "content": "Morgan Stanley will reportedly slash several hundred bankers in its wealth management division in a cost-saving measure implemented by the Wall Street firm’s new CEO Ted Pick.\r\nThe company plans to c… [+3009 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fb.com"
+            },
+            "author": "Investor Relations",
+            "title": "Meta - Hock E. Tan and John Arnold to Join Meta Board of Directors - Investor Relations",
+            "description": null,
+            "url": "https://investor.fb.com/investor-news/press-release-details/2024/Hock-E.-Tan-and-John-Arnold-to-Join-Meta-Board-of-Directors/default.aspx",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T21:09:52Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Karen Friar",
+            "title": "Stock market today: US stocks rebound from inflation-fueled sell-off - Yahoo Finance",
+            "description": "Calm is returning after hotter-than-expected inflation spooked the market, upending bets on interest rate cuts.",
+            "url": "https://finance.yahoo.com/news/stock-market-today-us-stocks-rebound-from-inflation-fueled-sell-off-210339646.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Nkp6X4xRCSnhC1y4n03qiw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-01/19100e60-c404-11ee-bfbf-7d21ae990791",
+            "publishedAt": "2024-02-14T21:06:00Z",
+            "content": "Salesforce's (CRM) stock was up more than 2% on Wednesday after launching a new AI-focused product on Slack.\r\nYahoo Finance's Dan Howley reports:\r\nSlack, the popular workplace messaging app, has offi… [+1774 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools - Reuters",
+            "description": null,
+            "url": "https://www.reuters.com/technology/cybersecurity/microsoft-says-it-caught-hackers-china-russia-iran-using-its-ai-tools-2024-02-14/",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T20:52:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "Mary Kekatos",
+            "title": "FDA approves 1st medication to treat severe frostbite - ABC News",
+            "description": "The drug reduced the risk of finger or toe amputations.",
+            "url": "https://abcnews.go.com/Health/fda-approves-1st-medication-treat-severe-frostbite/story?id=107227977",
+            "urlToImage": "https://i.abcnewsfe.com/a/bf450289-3438-467f-85a0-9c26c7173855/cold-hands-stock-gty-jef-240214_1707940762460_hpMain_16x9.jpg?w=1600",
+            "publishedAt": "2024-02-14T20:42:33Z",
+            "content": "The U.S. Food and Drug Administration approved the first medication to treat severe frostbite on Wednesday.\r\nAurlumyn, manufactured by Actelion Pharmaceuticals US, Inc., is an injection to treat seve… [+2689 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Republicans, Democrats get in heated debate over beneficial ownership regime - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2024/02/14/beneficial-ownership-regime-house-financial-services",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T20:27:07Z",
+            "content": null
+        }
+    ]
+}

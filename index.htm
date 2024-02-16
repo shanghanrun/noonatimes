@@ -15,13 +15,6 @@
 
 <body>
     <section class="container">
-        <div class="search-container">
-            <i class="material-icons">search</i>
-            <input type='text' class='search-input' placeholder='키워드 검색' id="input">
-            <button onclick="search()" id="search-button">검색</button>
-            <span>언어</span><span class="country" onclick="changeCountry()">한국기사 → 영어기사</span>
-        </div>
-
         <section>
             <div class="head-line">
                 <img src="noonatimes2.png" alt="누나타임즈" />
@@ -29,24 +22,13 @@
             <div class="menus">
                 <button id="business">Business</button>
                 <button id="entertainment">Entertainment</button>
-                <button id="general">General</button>
-                <button id="health">Health</button>
-                <button id="science">Science</button>
-                <button id="sports">Sports</button>
-                <button id="technology">Technology</button>
+                <button id="general">general</button>
+                <button id="kr">한글기사</button>
+                <button id="kr-enter">한국엔터</button>
             </div>
         </section>
-        <!-- <section id="video">
-            <h2 id="videoTitle"></h2>
-            <video id="videoPlayer" controls>
-                controls를 넣으면 비디오컨트롤이 나온다. -->
-        <!-- </video>
-        <p id="videoDescription"></p> -->
+        <input type="file" id="fileInput" onchange="handleFileInput(event)">
 
-        <!-- </section>
-    <section id="images"> -->
-
-        <!-- </section> -->
         <section id="news-board">
 
 

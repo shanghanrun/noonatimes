@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 69,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Daniella Genovese",
+            "title": "William Post, who helped invent Pop-Tarts, dead at 96 - Fox Business",
+            "description": "William \"Bill\" Post, often credited with having a key role in the invention of the Pop-Tart, died Saturday in Grand Rapids, Michigan, at the age of 96.",
+            "url": "https://www.foxbusiness.com/lifestyle/william-post-helped-invent-pop-tarts-dead-96",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/02/0/0/Pop-Tarts.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-14T20:25:00Z",
+            "content": "William \"Bill\" Post, the man credited with having a key role in the invention of the Pop-Tart, died Saturday. He was 96.\r\nPost was one of seven children raised by Dutch immigrants in Grand Rapids, Mi… [+2643 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Colorado sues to block Kroger and Albertsons merger - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2024/02/14/colorado-sues-to-block-kroger-albertsons-merger",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T20:17:13Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GMA"
+            },
+            "author": "Kelly McCarthy",
+            "title": "Antarctica bound travelers demand answers after cruise ship rerouted mid-voyage - Good Morning America",
+            "description": "Norwegian Cruise Line passengers claim their trip was changed to \"round-trip of South America\" while onboard, and their itinerary altered in the middle of their voyage.",
+            "url": "https://www.goodmorningamerica.com/travel/story/norwegian-cruise-line-passengers-claim-antarctica-voyage-rerouted-107222296",
+            "urlToImage": "https://s.abcnews.com/images/GMA/interview-abc-ml-240214_1707921305807_hpMain_16x9_992.jpg",
+            "publishedAt": "2024-02-14T19:52:30Z",
+            "content": "Antarctica-bound passengers aboard a Norwegian Cruise Line ship claim their course was rerouted mid-voyage to instead travel around South America, nearly 200 miles off course from the destination the… [+2487 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jalopnik"
+            },
+            "author": "José Rodríguez Jr.",
+            "title": "Tesla Cybertrucks Are Rusting Despite Being Stainless Steel - Jalopnik",
+            "description": "Owners say they are noticing orange stains on the stainless steel panels of their new Cybertrucks.",
+            "url": "https://jalopnik.com/why-tesla-cybertrucks-are-rusting-despite-being-made-of-1851257091",
+            "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/a6a3cac3f59961c74398e401295f56cf.jpg",
+            "publishedAt": "2024-02-14T19:40:00Z",
+            "content": "It seems the stainless steel panels of the Tesla Cybertruck are not really stain less, and are turning out to be no less susceptible to stains than stainless kitchen appliances, which easily develop … [+3948 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": null,
+            "title": "Stock market's sell-off still showed some signs of strength - Yahoo Finance",
+            "description": null,
+            "url": "https://finance.yahoo.com/news/stock-markets-sell-off-still-showed-some-signs-of-strength-191821265.html",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T19:18:21Z",
+            "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 242 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Timothy Nerozzi",
+            "title": "Bitcoin climbs to over $50,000 as value continues to recover - Fox Business",
+            "description": "The original cryptocurrency, Bitcoin, is currently worth over $51,000 per token after continuing its recovery from a major collapse in value during 2022.",
+            "url": "https://www.foxbusiness.com/technology/bitcoin-climbs-over-50000-value-continues-recover",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/05/0/0/bitcoin-blog-iStock-1.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-14T18:59:00Z",
+            "content": "The value of Bitcoin has risen to over $51,000 per token, a notable landmark in the cryptocurrency's long struggle to recover.\r\nThe total amount of Bitcoin in circulation is now worth over $1 trillio… [+2420 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WTNH.com"
+            },
+            "author": "Jenn Brink",
+            "title": "Opening of Raising Cane's in Enfield draws massive crowds - WTNH.com",
+            "description": "Hundreds of people turned out for the opening of Raising Cane’s in Enfield on Tuesday despite the snowstorm.",
+            "url": "https://www.wtnh.com/news/connecticut/hartford/opening-of-raising-canes-in-enfield-draws-massive-crowds/",
+            "urlToImage": "https://www.wtnh.com/wp-content/uploads/sites/100/2024/02/raising-canes-enfield-pd-021324-2.jpg?w=1280",
+            "publishedAt": "2024-02-14T18:45:04Z",
+            "content": "ENFIELD, Conn. (WTNH) Hundreds of people turned out for the opening of Raising Cane’s in Enfield on Tuesday despite the snowstorm.\r\nCars were lined around the building and into the Enfield Mall parki… [+1473 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool"
+            },
+            "author": "Keith Noonan",
+            "title": "Why Super Micro Computer Stock Is Surging Again Today - The Motley Fool",
+            "description": "Investors are loving Super Micro Computer today, and its share price is up more than 800% over the last year.",
+            "url": "https://www.fool.com/investing/2024/02/14/why-super-micro-computer-stock-is-surging-today/",
+            "urlToImage": "https://g.foolcdn.com/editorial/images/765311/gettyimages-1550670587.jpg",
+            "publishedAt": "2024-02-14T18:41:41Z",
+            "content": "Shares of Super Micro Computer(SMCI 11.25%) are making big gains in Wednesday's trading session. The red-hot server company's share price was up 6.6% as of 12:30 p.m. ET today, according to data from… [+1849 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Preetika Rana",
+            "title": "Lyft Shares Surge as Strong Earnings Report Offsets Typo Confusion - The Wall Street Journal",
+            "description": "Company’s earnings release accidentally added an extra zero to a key number; shares hit 52-week high",
+            "url": "https://www.wsj.com/business/earnings/lyft-earnings-typo-sends-stock-soaring-9b4ad02b",
+            "urlToImage": "https://images.wsj.net/im-925157/social",
+            "publishedAt": "2024-02-14T18:41:00Z",
+            "content": "Lyft shares hit a 52-week high Wednesday following the companys strong fourth-quarter results and despite confusion caused by a mistake in its earnings release.\r\nLyfts release Tuesday said one of its… [+867 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CoinDesk"
+            },
+            "author": "Helene Braun",
+            "title": "Coinbase to Report Strong Earnings, ETF Benefits May Surprise Wall Street, Analysts Say - CoinDesk",
+            "description": "Coinbase is expected to report strong revenue numbers, given an uptick in crypto trading volume towards the end of 2023.",
+            "url": "https://www.coindesk.com/business/2024/02/14/coinbase-to-report-strong-earnings-muted-benefits-from-etf-hype-analysts-say/",
+            "urlToImage": "https://www.coindesk.com/resizer/uj8uhOcKq3ENv-8MXy9YIrIJEeI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7FRJAVQYJRD5HNMRTINWCDAHNA.jpg",
+            "publishedAt": "2024-02-14T18:37:00Z",
+            "content": "<ul><li>Coinbase (COIN) is expected to report strong revenue numbers on Thursday when it reports fourth-quarter earnings after the bell.\r\n</li><li>Analysts predict a strong quarter for the crypto exc… [+3860 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Aislinn Murphy",
+            "title": "Jeff Bezos sells $2 billion worth of Amazon stock - Fox Business",
+            "description": "Billionaire Jeff Bezos conducted a slew of stock sales on Friday and Monday, offloading nearly 12 million of his Amazon shares, an SEC filing showed Wednesday.",
+            "url": "https://www.foxbusiness.com/markets/jeff-bezos-sells-2-billion-worth-amazon-stock",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/12/0/0/jeff-bezos-climate.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-14T18:34:00Z",
+            "content": "Jeff Bezos sold more Amazon stock. \r\nThe Amazon founder conducted the latest transactions involving nearly 12 million shares on Friday and Monday. They were disclosed in a Tuesday filing with the Sec… [+2324 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Demetri Sevastopulo, Patricia Nilsson, Peter Campbell",
+            "title": "US Porsche, Bentley and Audi imports held up over banned Chinese part - Financial Times",
+            "description": "Thousands of cars impounded after supplier discovers subcomponent from ‘western China’",
+            "url": "https://www.ft.com/content/ab63cc9b-1c57-43d0-89c2-8f63e5c06eba",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F6143096b-b113-447e-af01-250a7e421bcf.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2024-02-14T18:27:40Z",
+            "content": "Thousands of Porsche, Bentley and Audi cars have been impounded in US ports after a supplier to parent group Volkswagen found a Chinese subcomponent in the vehicles that breached anti-forced labour l… [+3977 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tipranks.com"
+            },
+            "author": "Michael Byrne",
+            "title": "Robinhood Stock (NYSE:HOOD): Earnings Suggest a Turnaround Is Underway - TipRanks",
+            "description": "Robinhood Markets (NYSE:HOOD) has been in the doldrums for the last two years, but it looks like a turnaround is underway, and progress is steadily taking hold base...",
+            "url": "https://www.tipranks.com/news/robinhood-stock-nysehood-earnings-suggest-a-turnaround-is-underway",
+            "urlToImage": "https://blog.tipranks.com/wp-content/uploads/2024/02/shutterstock_1906127353-1-750x406.jpg",
+            "publishedAt": "2024-02-14T18:03:52Z",
+            "content": "Robinhood Markets (NYSE:HOOD) has been in the doldrums for the last two years, but it looks like a turnaround is underway, and progress is steadily taking hold based on its excellent Q4 earnings resu… [+6120 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Tanaya Macheel",
+            "title": "Stocks making the biggest moves midday: Uber, Airbnb, MGM Resorts, Robinhood and more - CNBC",
+            "description": "These are the stocks posting the largest moves in midday trading.",
+            "url": "https://www.cnbc.com/2024/02/14/stocks-making-the-biggest-moves-midday-uber-abnb-mgm-hood.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107369795-1707247232252-gettyimages-1873769256-_em13437.jpeg?v=1707247383&w=1920&h=1080",
+            "publishedAt": "2024-02-14T17:58:20Z",
+            "content": "Check out the companies making headlines in midday trading.\r\nUber Uber's shares jumped 11%, climbing to a new 52-week high, after the ride-hailing company announced an inaugural $7 billion share repu… [+4452 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WOWK 13 News"
+            },
+            "author": "Isaac Taylor",
+            "title": "Barboursville Target falling apart as road collapses - WOWK 13 News",
+            "description": "BARBOURSVILLE, WV (WOWK) — The Target in the Merritt Creek Shopping Center in Barboursville is falling apart after the road behind it collapsed. According to emergency officials, a hill slip and continual settling on the property caused this problem and also …",
+            "url": "https://www.wowktv.com/news/west-virginia/cabell-county-wv/barboursville-target-falling-apart-as-road-collapses/",
+            "urlToImage": "https://www.wowktv.com/wp-content/uploads/sites/52/2024/02/Target-Slip.png?w=1280",
+            "publishedAt": "2024-02-14T17:58:04Z",
+            "content": "BARBOURSVILLE, WV (WOWK) — The Target in the Merritt Creek Shopping Center in Barboursville is falling apart after the road behind it collapsed.\r\nAccording to emergency officials, a hill slip and con… [+906 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MarketWatch"
+            },
+            "author": "Brett Arends",
+            "title": "Want to chase the stock-market rally? Read this first. - MarketWatch",
+            "description": "It’s been looking a lot like a bull market.",
+            "url": "https://www.marketwatch.com/story/want-to-chase-the-stock-market-rally-read-thisfirst-2274bbf6",
+            "urlToImage": "https://images.mktw.net/im-60645671/social",
+            "publishedAt": "2024-02-14T17:54:00Z",
+            "content": "Its been looking a lot like a bull market.The S&amp;P 500 closed above 5,000 on Friday, for the first time ever. The Dow Jones Industrial Average \r\n DJIA\r\n has been closing in on 40,000. Popular big … [+3125 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ABC15 Arizona"
+            },
+            "author": "Peter Valdes-Dapena, CNN",
+            "title": "Waymo recalls software after two self-driving cars hit the same truck - ABC15 Arizona in Phoenix",
+            "description": "The recall comes after a crash in Phoenix in December",
+            "url": "https://www.abc15.com/news/national/waymo-recalls-software-after-two-self-driving-cars-hit-the-same-truck",
+            "urlToImage": "https://ewscripps.brightspotcdn.com/dims4/default/56700e7/2147483647/strip/true/crop/1280x672+0+144/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F29%2Fcc%2F6290b80040189063382e8f50106c%2Fwaymo-jaguar.jpg",
+            "publishedAt": "2024-02-14T17:51:32Z",
+            "content": "PHOENIX Waymo, the self-driving car division of Googles parent company, Alphabet, issued a recall for its own self-driving car software after two of its vehicles hit the same truck minutes apart.\r\nMi… [+2854 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Interest rates won't fall due to 4% inflation, says Bank boss - BBC.com",
+            "description": "Bank of England boss says the latest inflation figure \"pretty much leaves us where we were\".",
+            "url": "https://www.bbc.com/news/business-68285819",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/29B1/production/_132637601_gettyimages-1944424509.jpg",
+            "publishedAt": "2024-02-14T17:44:17Z",
+            "content": "By Lora Jones &amp; Michael RaceBusiness reporters, BBC News\r\nThe Bank of England's governor has said UK inflation remaining unchanged is \"encouraging\", but he hinted it would not mean earlier intere… [+4815 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Bloomberg Surveillance 02/14/2024 - Bloomberg Television",
+            "description": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern have the economy and global markets \"under surveillance\".  Their daily conversations with leaders and de...",
+            "url": "https://www.youtube.com/watch?v=x9hyvBlSb7w",
+            "urlToImage": "https://i.ytimg.com/vi/x9hyvBlSb7w/maxresdefault.jpg",
+            "publishedAt": "2024-02-14T17:26:53Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Daniella Genovese",
+            "title": "Listeria outbreak: Dairy products affected and what to do if they're in your refrigerator - Fox Business",
+            "description": "Federal health officials are investigating an outbreak of listeria infections that started about 10 years ago. This time, they have more evidence connecting a brand to the outbreak.",
+            "url": "https://www.foxbusiness.com/lifestyle/listeria-outbreak-dairy-products-affected-what-do-if-in-your-refrigerator",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/02/0/0/Queso-fresco-cheese.jpg?ve=1&tl=1",
+            "publishedAt": "2024-02-14T17:25:00Z",
+            "content": "A deadly listeria outbreak tied to types of dairy products that infected people across nearly a dozen states prompted recalls from Costco, Walmart, Trader Joe's and other major retailers.   \r\nFederal… [+3654 chars]"
+        }
+    ]
+}
