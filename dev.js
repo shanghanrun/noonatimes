@@ -1,7 +1,7 @@
 const apiKey ='4c2d201c758b4664ab2eeaa863a7bbee'
 let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 let newsList=[]
-const replaceImage ="noonatimes2.png";
+let replaceImage ="noonatimes2.png";
 let totalResults = 0;
 let page =1
 const pageSize =10 // 한페이지에 보여질 item갯수
@@ -34,36 +34,36 @@ function checkInput(word){
 }
 
 const getNews = async()=>{
-    // const url2 = new URL(url);
-    // url2.searchParams.set("page",page)  // &page=page
-    // url2.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
+    const url2 = new URL(url);
+    url2.searchParams.set("page",page)  // &page=page
+    url2.searchParams.set("pageSize",pageSize) //&pageSize=pageSize
     try{
-        // const response = await fetch(url2);   너무 많이 이용해서 블록당해서 하루 정도 쉰다.
-        // const data = await response.json()
-        //  if (response.status == 200){
-        //     if(data.articles.length == 0){
-        //         throw new Error('No result for this search');
-        //     }
-        //      newsList = data.articles;
-        //      totalResults = data.totalResults;
-        //      const firstItem = {
-        //          title: '여신의 품격: Ive 장원영',
-        //          content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
-        //          urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
-        //          publishedAt: '2024.01.30',
-        //          source: {name: 'Noona Times'}
-        //      }
-        //      newsList = [firstItem, ...newsList]
+        const response = await fetch(url2);  // 너무 많이 이용해서 블록당해서 하루 정도 쉰다.
+        const data = await response.json()
+         if (response.status == 200){
+            if(data.articles.length == 0){
+                throw new Error('No result for this search');
+            }
+             newsList = data.articles;
+             totalResults = data.totalResults;
+             let firstItem = {
+                 title: '여신의 품격: Ive 장원영',
+                 content: "<h5>코딩 알려주는 누나와 쌍벽을 이루는 미모</br>코딩누나 긴장 좀 해야 겠다!! </h5>",
+                 urlToImage: `https://truth.bahamut.com.tw/s01/202209/bb7dd87e8f4d1d0ca3a7d735f873eb38.JPG`,
+                 publishedAt: '2024.01.30',
+                 source: {name: 'Noona Times'}
+             }
+             newsList = [firstItem, ...newsList]
              render();
              pagiNationRender()   
              console.log(newsList)
-        //  } else{
-        //     throw new Error(data.message)
-        //  }
+         } else{
+            throw new Error(data.message)
+         }
 
     } catch(e){
         console.log(e.message)
-        errorRender(error.message)
+        errorRender(e.message)
     }
     
 }
@@ -105,7 +105,7 @@ function errorRender(errorMessage){
 function pagiNationRender(){
     const totalPage = Math.ceil(totalResults / pageSize)
     const pageGroup = Math.ceil(page /groupSize)
-    const lastPage = pageGroup * groupSize  //groupSize * 그룹단위
+    let lastPage = pageGroup * groupSize  //groupSize * 그룹단위
     const firstPage = lastPage - groupSize +1
 
     if (lastPage > totalPage){
